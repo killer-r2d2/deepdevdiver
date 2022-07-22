@@ -1,0 +1,47 @@
+image: node:16
+
+pipelines:
+  custom:
+    ssr:
+      - step:
+          name: Build and test
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run build
+          artifacts:
+            - .output/**
+      - step:
+          name: Deploy artifacts using SCP to PROD
+          deployment: production
+          script:
+            - pipe: atlassian/scp-deploy:0.3.3
+              variables:
+                USER: $USER
+                SERVER: $SERVER
+                REMOTE_PATH: '/var/www/base-frontend'
+                LOCAL_PATH: '.output/*'
+                DEBUG: 'true'
+    ssg:
+      - step:
+          name: Build and test
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run build
+            - npm run generate
+          artifacts:
+            - .output/**
+      - step:
+          name: Deploy artifacts using SCP to PROD
+          deployment: production
+          script:
+            - pipe: atlassian/scp-deploy:0.3.3
+              variables:
+                USER: $USER
+                SERVER: $SERVER
+                REMOTE_PATH: '/var/www/html'
+                LOCAL_PATH: '.output/public/*'
+                DEBUG: 'true'
