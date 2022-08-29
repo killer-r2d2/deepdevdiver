@@ -10,7 +10,7 @@ useHead({
   link: [
     {
       rel: "icon",
-      href: "/public/diver-helmet-48.png",
+      href: "/diver-helmet-48.png",
       type: "image/x-icon",
     },
   ],
