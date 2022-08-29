@@ -8,7 +8,7 @@
           Hello I'm Roger.
         </h1>
         <p class="max-w-xl mt-5 mx-auto text-xl mb-8">
-          Welcome to my side, I am a Web Frontend Developer
+          Welcome to my site, I am a Web Frontend Developer
         </p>
         <MainSocials />
       </div>
