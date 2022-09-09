@@ -1,6 +1,9 @@
 <script setup>
 useHead({
   title: "deepdediver",
+  htmlAttrs: {
+    lang: "en",
+  },
   meta: [
     {
       name: "description",

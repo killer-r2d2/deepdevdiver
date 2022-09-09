@@ -4,6 +4,7 @@
       v-for="item in contacts.links"
       :key="item.name"
       :href="item.href"
+      :aria-label="item.name"
       target="_blank"
     >
       <component :is="item.icon" class="h-8 w-8" aria-hidden="true"
