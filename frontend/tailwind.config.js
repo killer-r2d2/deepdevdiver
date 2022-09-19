@@ -3,7 +3,9 @@ module.exports = {
   content: [],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        secondary: "#4B32FB",
+      },
     },
   },
 

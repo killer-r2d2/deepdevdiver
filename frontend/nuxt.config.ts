@@ -15,4 +15,10 @@ export default defineNuxtConfig({
   build: {
     transpile: ["@headlessui/vue", "@heroicons/vue"],
   },
+
+  runtimeConfig: {
+    // Private config that is only available on the server
+    apiSecret: process.env.API_SECRET || "http://localhost:1337/api",
+    // Config within public will be also exposed to the client
+  },
 });

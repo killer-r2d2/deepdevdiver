@@ -21,5 +21,7 @@ useHead({
 </script>
 
 <template>
-  <MainHeader />
+  <div>
+    <MainHeader />
+  </div>
 </template>

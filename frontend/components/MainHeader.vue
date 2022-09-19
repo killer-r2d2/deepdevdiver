@@ -11,6 +11,7 @@
           Welcome to my site, I am a Web Frontend Developer
         </p>
         <MainSocials />
+        <Skills />
       </div>
     </div>
   </div>
