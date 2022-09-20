@@ -12,7 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "skill": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
       "type": "string"
     }
   }
