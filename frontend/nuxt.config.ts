@@ -17,8 +17,8 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    // Private config that is only available on the server
-    apiSecret: process.env.API_SECRET || "http://localhost:1337/api",
-    // Config within public will be also exposed to the client
+    public: {
+      NUXT_API_SECRET: process.env.NUXT_API_SECRET,
+    },
   },
 });

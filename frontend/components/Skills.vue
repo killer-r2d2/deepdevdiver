@@ -1,7 +1,9 @@
 <script setup>
 const config = useRuntimeConfig();
 
-const { data: skills } = await useFetch(`${config.apiSecret}/skills`);
+const { data: skills } = await useFetch(
+  `${config.public.NUXT_API_SECRET}/skills`
+);
 </script>
 
 <template>
