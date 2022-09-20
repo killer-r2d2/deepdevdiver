@@ -5,7 +5,7 @@ const { data: skills } = await useFetch(`${config.apiSecret}/skills`);
 </script>
 
 <template>
-  <div v-if="skills.data" class="mt-8">
+  <div v-if="skills" class="mt-8">
     <h2 class="text-3xl text-center tracking-tight font-bold mb-8">Skills</h2>
     <ul class="flex flex-wrap justify-center">
       <li
