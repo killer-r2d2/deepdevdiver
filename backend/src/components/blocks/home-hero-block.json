@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_home_hero_blocks",
+  "info": {
+    "displayName": "HomeHeroBlock",
+    "icon": "home"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}
