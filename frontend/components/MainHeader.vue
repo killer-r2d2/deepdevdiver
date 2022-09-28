@@ -8,14 +8,14 @@
           Hello I'm Roger.
         </h1>
         <p class="max-w-xl mt-5 mx-auto text-xl mb-8">
-          Welcome to my site, I am a Frontend Developer at
+          I am a Frontend Developer at
           <a
             class="underline decoration-2"
             href="https://www.advery.ch/"
             target="_blank"
             >Advery</a
           >
-          and I like to building things.
+          and I like to build things.
         </p>
         <MainSocials />
         <Skills />
