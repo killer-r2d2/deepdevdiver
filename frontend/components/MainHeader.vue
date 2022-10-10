@@ -18,7 +18,6 @@
           and I like to build things.
         </p>
         <MainSocials />
-        <Skills />
       </div>
     </div>
   </div>
