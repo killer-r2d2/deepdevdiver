@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen grid place-items-center">
+  <div class="h-screen">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <div class="text-center">
         <h1
@@ -18,6 +18,7 @@
           and I like to build things.
         </p>
         <MainSocials />
+        <Skill />
       </div>
     </div>
   </div>
