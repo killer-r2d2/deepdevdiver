@@ -69,7 +69,7 @@ const loadMoreSkills = () => {
                 @click="loadMoreSkills"
                 type="button"
                 aria-label="Load more skills"
-                class="text-secondary inline-flex items-center animate-pulse rounded-full border border-transparent bg-white text-slate shadow-sm hover:bg-slate-50 focus:ring-2 focus:ring-slate-300"
+                class="text-secondary inline-flex items-center rounded-full border border-transparent bg-white text-slate shadow-sm hover:bg-slate-50 focus:ring-2 focus:ring-slate-300"
               >
                 <PlusIcon class="h-4 w-4" aria-hidden="true" />
               </button>

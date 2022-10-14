@@ -23,6 +23,9 @@ useHead({
 <template>
   <div>
     <MainHeader />
-    <Skill />
+    <main>
+      <Skill />
+    </main>
+    <Footer />
   </div>
 </template>
