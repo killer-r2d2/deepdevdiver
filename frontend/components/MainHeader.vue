@@ -20,8 +20,5 @@
         <div class="flex justify-evenly"><Socials /></div>
       </div>
     </div>
-    <a href="#skills" class="animate-pulse">
-      <ArrowIcon class="h-12 w-12" aria-hidden="true" />
-    </a>
   </header>
 </template>
