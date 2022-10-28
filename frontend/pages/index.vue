@@ -1,6 +1,5 @@
 <template>
   <div>
-    <MainHeader />
-    <main></main>
+    <Hero />
   </div>
 </template>

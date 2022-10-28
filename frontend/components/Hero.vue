@@ -1,5 +1,5 @@
 <template>
-  <header class="h-screen grid place-items-center" id="header">
+  <div class="h-screen grid place-items-center" id="header">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <div class="text-center">
         <h1
@@ -20,5 +20,5 @@
         <div class="flex justify-evenly"><Socials /></div>
       </div>
     </div>
-  </header>
+  </div>
 </template>

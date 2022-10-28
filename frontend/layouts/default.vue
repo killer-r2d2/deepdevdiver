@@ -1,5 +1,5 @@
 <template>
   <div class="main-gradient text-white">
-    <NuxtPage />
+    <slot />
   </div>
 </template>
