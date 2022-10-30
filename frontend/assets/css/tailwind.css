@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.main-gradient {
-  background: linear-gradient(to bottom, #362aca, #25229b, #18186e, #0e0e43);
-}
-
 @layer base {
   html {
     @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .main-gradient {
+    background: linear-gradient(to bottom, #362aca, #25229b, #18186e, #0e0e43);
   }
 }
