@@ -4,14 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        secondary: "#4B32FB",
-        footer: "#06314C",
-        // primary: {
-        //   DEFAULT: "#F9F9F9",
-        //   400: "#F9F9F9",
-        //   500: "#F9F9F9",
-        //   600: "#F9F9F9",
-        // }
+        primary: {
+          DEFAULT: "#4B32FB",
+          400: "#54BDC8",
+          500: "#4B32FB",
+          600: "#136289",
+          700: "#0C4368",
+          800: "#06314C",
+          900: "#0E0E43",
+        },
+        dwhite: "#FFFFFF",
       },
     },
   },

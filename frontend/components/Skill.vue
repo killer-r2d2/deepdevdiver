@@ -38,10 +38,10 @@ const loadMoreSkills = () => {
 
 <template>
   <section class="h-screen">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-      <div v-if="skills" class="mt-8 mx-auto max-w-sm">
+    <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+      <div v-if="skills" class="mx-auto mt-8 max-w-sm">
         <h2
-          class="text-3xl text-start tracking-tight font-bold mb-8"
+          class="mb-8 text-start text-3xl font-bold tracking-tight"
           id="skills"
         >
           Skills
@@ -52,7 +52,7 @@ const loadMoreSkills = () => {
               <li
                 v-for="skill in skills"
                 :key="skill.id"
-                class="bg-white text-xs text-secondary mr-4 p-2 mt-4 mb-4"
+                class="mr-4 mt-4 mb-4 bg-white p-2 text-xs"
               >
                 <a
                   v-if="skill.attributes.url !== null"
@@ -63,13 +63,13 @@ const loadMoreSkills = () => {
                 <p v-else>{{ skill.attributes.title }}</p>
               </li>
             </TransitionGroup>
-            <li class="mr-4 p-2 mt-4 mb-4 flex">
+            <li class="mr-4 mt-4 mb-4 flex p-2">
               <button
                 v-if="hasMoreSkills"
                 @click="loadMoreSkills"
                 type="button"
                 aria-label="Load more skills"
-                class="text-secondary inline-flex items-center rounded-full border border-transparent bg-white text-slate shadow-sm hover:bg-slate-50 focus:ring-2 focus:ring-slate-300"
+                class="text-slate inline-flex items-center rounded-full border border-transparent bg-white shadow-sm hover:bg-slate-50 focus:ring-2 focus:ring-slate-300"
               >
                 <PlusIcon class="h-4 w-4" aria-hidden="true" />
               </button>

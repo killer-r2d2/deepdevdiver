@@ -1,10 +1,10 @@
 <script></script>
 <template>
-  <footer class="bg-footer w-full">
+  <footer class="w-full">
     <div
-      class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex justify-between items-center"
+      class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
     >
-      <div class="flex justify-between w-24">
+      <div class="flex w-24 justify-between">
         <Socials />
       </div>
       <a href="#header" class="animate-pulse"
