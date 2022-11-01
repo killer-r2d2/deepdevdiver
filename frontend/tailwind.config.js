@@ -3,6 +3,10 @@ module.exports = {
   content: [],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Lato", "sans-serif"],
+        serif: ["Roboto Slab", "serif"],
+      },
       colors: {
         primary: {
           DEFAULT: "#4B32FB",
@@ -14,6 +18,15 @@ module.exports = {
           900: "#0E0E43",
         },
         dwhite: "#FFFFFF",
+      },
+    },
+    container: {
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
       },
     },
   },
