@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "deepdediver",
+  title: "deepdevdiver",
   htmlAttrs: {
     lang: "en",
   },
