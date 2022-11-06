@@ -18,7 +18,7 @@ const props = defineProps({
           <h1
             class="mt-1 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
           >
-            {{ data.title }}
+            <!-- {{ data.title }} -->
           </h1>
 
           <div
