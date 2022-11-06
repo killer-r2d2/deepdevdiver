@@ -49,6 +49,10 @@
   h1 {
     @apply font-sans text-4xl lg:text-5xl;
   }
+
+  .content a {
+    @apply underline hover:text-primary-400;
+  }
 }
 
 @layer components {

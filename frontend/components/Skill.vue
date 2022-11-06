@@ -23,7 +23,7 @@ const loadMoreSkills = () => {
     { encodeVluesOnly: true }
   );
 
-  const url = `${config.public.NUXT_API_SECRET}/skills?${query}`;
+  const url = `${config.public.API_URL}/skills?${query}`;
 
   fetch(url)
     .then((response) => response.json())

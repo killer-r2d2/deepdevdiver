@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "home": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::page.page"
-    },
     "siteName": {
       "type": "string"
     }
