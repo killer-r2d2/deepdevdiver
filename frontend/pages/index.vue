@@ -1,7 +1,6 @@
 <script setup>
 import qs from "qs";
 import HomeHeroBlock from "~/components/blocks/HomeHeroBlock.vue";
-const foo = useFoo();
 const config = useRuntimeConfig();
 const apiUrl = config.public.API_URL;
 const query = qs.stringify(
@@ -17,7 +16,6 @@ const { data } = useFetch(`${apiUrl}/home?${query}`);
 
 <template>
   <div>
-    <p>{{ foo }}</p>
     <HomeHeroBlock :data="data?.data?.attributes?.hero" />
   </div>
 </template>
