@@ -17,14 +17,13 @@ const props = defineProps({
           <h1
             class="mt-1 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
           >
-            <!-- {{ data.title }} -->
-            {{ data }}
+            {{ data.title }}
           </h1>
 
-          <!-- <div
+          <div
             class="content mx-auto mt-5 mb-8 max-w-xl text-xl"
             v-html="md.render(data.lead)"
-          ></div> -->
+          ></div>
 
           <div class="flex justify-evenly"><Socials /></div>
         </div>
