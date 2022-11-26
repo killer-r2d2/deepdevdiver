@@ -11,7 +11,7 @@ const query = qs.stringify(
 );
 
 // usefetch
-const { data } = useFetch(`${apiUrl}/home?${query}`);
+const { data } = await useFetch(`${apiUrl}/home?${query}`);
 </script>
 
 <template>
